@@ -2,7 +2,7 @@
 🌍 **Language:** [🇬🇧 English](README.en.md) | [🇨🇿 Čeština](README.cs.md)
 
 ## Overview
-This PowerShell script automates the backup process for Microsoft SQL Server databases. It supports both Windows and SQL Server authentication and allows scheduling backups using Windows Task Scheduler.
+This PowerShell script automates the backup process for Microsoft SQL Server databases. Including SQL Server Express, which lacks SQL Agent for automated backups. It supports both Windows and SQL Server authentication and allows scheduling backups using Windows Task Scheduler.
 
 ## Features
 - Detects the system language (English/Czech) and provides localized messages.
