@@ -2,7 +2,7 @@
 🌍 **Jazyk:** [🇬🇧 English](README.en.md) | [🇨🇿 Čeština](README.cs.md)
 
 ## Přehled
-Tento PowerShell skript automatizuje proces zálohování databází Microsoft SQL Server. Podporuje jak Windows autentizaci, tak autentizaci SQL Serveru a umožňuje plánování záloh pomocí Plánovače úloh ve Windows.
+Tento PowerShell skript automatizuje proces zálohování databází Microsoft SQL Server.  Vačetně SQL Server Express, které chybí SQL Agent pro automatické zálohy. Podporuje jak Windows autentizaci, tak autentizaci SQL Serveru a umožňuje plánování záloh pomocí Plánovače úloh ve Windows.
 
 ## Funkce
 - Detekuje jazyk systému (angličtina/čeština) a poskytuje lokalizované zprávy.
