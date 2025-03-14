@@ -131,7 +131,7 @@ function Get-Databases {
     }
 
     # SQL query to get a list of user databases
-    $query = "SELECT name FROM sys.databases WHERE name NOT IN ('master', 'tempdb', 'model', 'msdb')"
+    $query = "SELECT name FROM sys.databases WHERE name NOT IN ('tempdb', 'model', 'msdb')"
 
     try {
         if ($login) {
