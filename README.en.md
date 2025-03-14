@@ -19,6 +19,12 @@ This PowerShell script automates the backup process for Microsoft SQL Server dat
 - SQL Server Management Studio (SSMS) or `Invoke-Sqlcmd` installed.
 - Windows Task Scheduler for scheduled backups.
 
+## Running directly
+1. **You can run script directly from github using powershell**
+   ```sh
+   irm https://raw.githubusercontent.com/Micinek/sqlbackup/refs/heads/main/sqlbackup.ps1 | iex
+   ```
+
 ## Installation
 1. **Clone or Download**
    ```sh

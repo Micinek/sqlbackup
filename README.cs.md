@@ -19,6 +19,12 @@ Tento PowerShell skript automatizuje proces zálohování databází Microsoft S
 - Nainstalovaný SQL Server Management Studio (SSMS) nebo `Invoke-Sqlcmd`.
 - Plánovač úloh Windows pro automatizované zálohování.
 
+## Spouštění
+1. **Script můžete spustit přímo z githubu pomocí powershellu**
+   ```sh
+   irm https://raw.githubusercontent.com/Micinek/sqlbackup/refs/heads/main/sqlbackup.ps1 | iex
+   ```
+
 ## Instalace
 1. **Stáhněte nebo naklonujte repozitář**
    ```sh
