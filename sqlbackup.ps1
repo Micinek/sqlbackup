@@ -26,7 +26,7 @@ $backupRetentionCount = 3
 $sqlUsername = ""
 $sqlPassword = ""
 
-# Databases to back up
+# Databases to back up        # Get the list of databases with this querry: " SELECT name FROM sys.databases; " on your MSSQLserver
 $databasesToBackup = @(
     "master",
     "Helios001",
